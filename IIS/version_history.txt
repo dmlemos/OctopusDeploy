@@ -1,0 +1,145 @@
+//---------
+// lib_iis
+//---------
+
+--------
+v1.0.2
+--------
+* removeWebConfigs now reports which web config files were deleted
+
+--------
+v1.0.3
+--------
+* getAppURL has more compatibility
+* New naming convention
+* Removed some functions
+
+--------
+v1.0.4
+--------
+* Small modification to getAPPURL for website|webapp mode
+
+--------
+v1.0.5
+--------
+- Removed messagehelper dependency
+
+
+//--------
+// lib_io
+//--------
+
+--------
+v1.0.1
+--------
++ EnsureFolder
++ removeWebConfigs
+
+--------
+v1.0.2
+--------
+* cleaned code in removeWebConfigs
+
+--------
+v1.0.3
+--------
+- Removed messagehelper dependency
+
+
+//-------------
+// lib_octopus
+//-------------
+
+--------
+v1.0.1
+--------
++ setVar from Octopus Deploy
++ getVar from Octopus Deploy
+
+--------
+v1.0.2
+--------
++ Transporation of deployment object between steps
+
+--------
+v1.0.3
+--------
+- Removed messagehelper dependency
+
+
+//-------------
+// deploy_app
+//-------------
+
+--------
+v1.0.2
+--------
++ ConsoleMode. Ability to run from the console using the main.ps1
++ Function to initiate the module
+
+--------
+v1.0.3
+--------
+* Importation of the modules has now better compatibility between Octopus and Console mode
+* initWebApp parameters reflect their name instead of position
+
+--------
+v1.0.4
+--------
++ Constructor for deployment object
++ Transporation of deployment object between steps
+
++ Added application deployed URL at the end of the deployment
+
+-------
+v1.0.5
+-------
++ Pre-requisites. Aborts deployment if healthcheck file or web config transforms are not in the package
+
+-------
+v1.0.6
+-------
++ HealthSwitch to handle load-balance deployments
+
+-------
+v1.0.7
+-------
+* Changed HealthSwitch to support QA environment
++ Confirms if the shell is running the required powershell version
+
+-------
+v1.0.8
+-------
++ Added the deployment mode. Supports deployment of websites and webapplications
+* Refactoring of the code to accommodate above changes
+
+-------
+v1.0.9
+-------
+* HealthSwitch delay is now a parameter
+
+-------
+v1.0.10
+-------
+* Healthcheck switch mode
++ Reports health parameters for deployment options
+
+
+//----------------
+// message_helper
+//----------------
+
+-------
+v1.0.3
+-------
+* Improved error mechanism
+
+
+//----------------
+// lib_common
+//----------------
+
+-------
+v1.0.0
+-------
++ Added common utility functions module
